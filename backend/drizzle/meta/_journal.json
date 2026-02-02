@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1769975134754,
+      "tag": "0000_stormy_shard",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1769978273711,
+      "tag": "0001_open_spot",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1769978660825,
+      "tag": "0002_overrated_mentallo",
+      "breakpoints": true
+    }
+  ]
+}

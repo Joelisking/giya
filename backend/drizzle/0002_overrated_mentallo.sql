@@ -1,0 +1,1 @@
+ALTER TABLE "user_profiles" ADD COLUMN "generation_status" text DEFAULT 'idle';

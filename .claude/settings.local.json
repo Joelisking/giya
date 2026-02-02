@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(psql:*)",
+      "Bash(lsof:*)",
+      "Bash(node -e:*)",
+      "Bash(npx tsx:*)",
+      "Bash(curl:*)",
+      "Bash(python3:*)",
+      "Bash(xargs:*)",
+      "Bash(npm install:*)",
+      "Bash(npx next build:*)",
+      "Bash(npx tsc:*)"
+    ]
+  }
+}

@@ -1,0 +1,207 @@
+Giya Compass
+A Living Decision-Making & Life Guidance Platform
+1. Product Overview
+1.1 What Giya Compass Is
+Giya Compass is a personalized, AI-powered life and career guidance platform designed to
+make complex decisions easier by:
+Deeply understanding the user through structured reflection
+Translating uncertainty into clear, step-by-step pathways
+Growing with the user over time as their goals, context, and identity evolve
+Helping users see and feel their possible futures through narrative visualization
+It is not a one-time recommendation engine.
+It is a long-term guide.
+
+1.2 Core Problem It Solves
+Most people struggle with:
+Not knowing what path to choose
+Feeling overwhelmed by options
+Making decisions without a clear long-term picture
+Losing motivation because the future feels abstract
+Giya Compass solves this by:
+Structuring self-discovery
+Providing grounded, realistic pathways
+Continuously adapting as the user grows
+Making the future emotionally tangible
+
+2. Design Philosophy & UI Direction
+2.1 NotebookLM-Inspired Interface
+The UI should feel:
+Calm
+Intelligent
+Minimal
+Thought-oriented
+Primary Layout:
+Left panel:
+User notebooks (Career, Education, Skills, Reflections)
+Saved paths
+Life previews
+Main panel:
+Conversational workspace
+Structured outputs (timelines, paths, suggestions)
+Right panel (optional / collapsible):
+Context memory
+Key assumptions
+“What Giya knows about you”
+This reinforces the feeling that:
+“This system understands me and is thinking with me.
+”
+2.2 Typeform-Inspired Question Flow
+The onboarding and major decision flows use:
+One question per screen
+Conversational tone
+Progress indicators
+Adaptive branching (questions change based on answers)
+The user never feels like they are filling a form.
+They feel like they are having a guided reflection.
+3. Onboarding: The Personal Discovery Flow
+3.1 Initial Entry Experience
+When a user lands on Giya Compass:
+Primary CTA:
+“Let’s figure out your path.
+”
+3.2 Core Discovery Questions (Initial 7)
+These questions form the foundational identity model.
+Example structure (adaptable):
+1. Current stage of life
+Age
+Education / work status
+2. What excites you most right now?
+Creating things
+Solving problems
+Helping people
+Leading teams
+Exploring ideas
+3. How do you like to work?
+Alone / collaboratively
+Structured / flexible
+Fast-paced / deep focus
+4. What are you naturally good at (or enjoy learning)?
+Analytical thinking
+Visual creativity
+Communication
+Technology
+Strategy
+5. What kind of impact do you want to have?
+Build products
+Influence people
+Advance technology
+Improve society
+6. What constraints should we consider?
+Location
+Financial limitations
+Family expectations
+Time horizon
+7. What does “success” look like to you (right now)?
+Stability
+Recognition
+Freedom
+Mastery
+Purpose
+3.3 Identity Model Creation
+From these answers, the system builds a living user profile, including:
+Interests
+Work style
+Motivational drivers
+Constraints
+Early hypotheses about suitable paths
+This model is not static.
+It is continuously updated.
+4. Career Path Suggestion Engine
+4.1 Initial Recommendations
+Based on the identity model, Giya Compass suggests:
+3–6 career paths to explore
+Each with:
+○
+Why it fits the user
+What kind of life it tends to lead to
+○
+Confidence level (high / medium / exploratory)
+Example:
+“Based on what you’ve shared, here are some paths worth considering…
+”
+4.2 Adaptive Follow-Up Questions
+If the system detects uncertainty or missing signals, it asks targeted clarifying questions, such
+as:
+“Do you prefer technical depth or creative breadth?”
+“Are you open to long academic paths?”
+This prevents premature or shallow recommendations.
+5. Path Selection & Guided Timeline Generation
+5.1 Path Selection
+When the user selects a path (e.g., Product Design), the system transitions from exploration to
+guidance mode.
+5.2 Age-Aware, Contextual Timeline
+The system generates a step-by-step timeline starting from the user’s current age.
+Example structure:
+Age 18–22: Foundation
+Recommended degree programs
+Suggested majors and specializations
+Example universities (localized when possible)
+Key skills to focus on
+Age 22–25: Skill Deepening
+Entry-level roles
+Internships
+Portfolio-building projects
+Certifications or bootcamps
+Age 25–30: Growth Phase
+Advanced roles
+Leadership opportunities
+Specialization paths
+Each step answers:
+What to do
+Why it matters
+What success looks like at that stage
+6. The Living Guide System
+6.1 Giya as a Long-Term Companion
+Giya Compass is designed to:
+Remember past decisions
+Track progress
+Re-evaluate paths when circumstances change
+Prompt reflection at key life moments
+Examples:
+“You mentioned two years ago that you value creative freedom — does that still hold?”
+“Your interests have shifted toward leadership. Want to revisit your path?”
+6.2 Growth Checkpoints
+Periodic prompts:
+Annual reflections
+Skill check-ins
+Goal realignment sessions
+This turns the platform into a personal growth record, not just a tool.
+7.
+“Preview My Life”
+7.1 Feature Overview
+A dedicated button:
+Preview My Life
+— Narrative Visualization
+7.2 How It Works
+Uses the selected career path + timeline
+Incorporates the user’s values, motivations, and constraints
+Generates a storybook-style narrative using Gemini’s storytelling capabilities
+The output:
+Is written in second or third person
+Spans multiple life phases
+Focuses on lived experience, not fantasy
+Reflects realistic challenges and milestones
+Purpose:
+Emotional resonance
+Motivation
+Clarity
+Commitment
+7.3 Emotional Guardrails
+The narrative:
+Is aspirational but grounded
+Avoids guarantees
+Emphasizes agency and choice
+8. Additional Strategic Features (Proposed)
+8.1 Decision Sandbox
+Compare two paths side by side
+See trade-offs clearly
+8.2 Reflection Notebook
+User writes thoughts
+Giya references them later
+8.3 “What Changed?” Mode
+Helps users reassess after setbacks or new opportunities
+8.4 Mentor Mode (Future)
+Share a read-only version of the plan with a mentor or parent
+9. Core Principle
+Giya Compass is not about telling users who to become.
+It is about helping them see clearly, decide confidently, and grow intentionally.

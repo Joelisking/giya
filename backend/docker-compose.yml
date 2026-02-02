@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: giya_postgres
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_USER: giya_user
+      POSTGRES_PASSWORD: giya_password
+      POSTGRES_DB: giya_compass
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
