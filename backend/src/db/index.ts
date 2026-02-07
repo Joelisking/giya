@@ -5,7 +5,12 @@ import { config } from 'dotenv';
 config();
 
 if (!process.env.DATABASE_URL) {
+  console.error(
+    '❌ DATABASE_URL is missing from environment variables'
+  );
   throw new Error('DATABASE_URL is missing');
+} else {
+  console.log('✅ Database connection initialized');
 }
 
 // Disable prefetch as it is not supported for "Transaction" pool mode
