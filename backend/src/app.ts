@@ -13,7 +13,16 @@ config();
 const app = new Hono();
 
 // Enable CORS
-app.use('/*', cors());
+app.use(
+  '/*',
+  cors({
+    origin: '*',
+    allowHeaders: ['Content-Type', 'Authorization'],
+    allowMethods: ['POST', 'GET', 'OPTIONS', 'DELETE', 'PUT'],
+    exposeHeaders: ['Content-Length'],
+    maxAge: 600,
+  })
+);
 
 // Health Check
 app.get('/', (c) =>
