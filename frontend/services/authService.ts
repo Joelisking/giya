@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3001/auth';
+const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
 export const AuthService = {
   async signup(email: string, password: string) {
