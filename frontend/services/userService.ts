@@ -186,9 +186,9 @@ export const UserService = {
   },
 
   async getSharedPlan(token: string): Promise<SharedPlan> {
-    const res = await fetch(
-      `${process.env.NEXT_PUBLIC_API_URL}/share/${token}`
-    );
+    const baseUrl =
+      process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
+    const res = await fetch(`${baseUrl}/share/${token}`);
     if (!res.ok) throw new Error('Failed to fetch shared plan');
     return res.json();
   },
